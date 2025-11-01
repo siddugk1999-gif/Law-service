@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Law Service | ಕಾನೂನು ಸಲಹೆ</title>
+  <meta name="description" content="Law Service — ಕಾನೂನು ಸಲಹೆ ಮತ್ತು ಕಾನೂನಾತ್ಮಕ ಸೇವೆಗಳು. ಸಂಪರ್ಕ: 7624934330, Email: siddugk1999@gmail.com">
+  <style>
+    :root{--accent:#0b63d6;--bg:#f7f9fc;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans Kannada','Noto Sans Devanagari',Arial; margin:0; background:var(--bg); color:#111}
+    .container{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo-img{width:60px;height:60px;border-radius:8px;object-fit:cover;border:1px solid #e6eef8}
+    .logo-txt{display:flex;flex-direction:column}
+    nav a{margin-left:12px;text-decoration:none;color:var(--muted)}
+    .lang-select{display:flex;gap:8px;align-items:center}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;margin-top:20px;padding:26px;background:linear-gradient(180deg,#ffffff, #fbfdff);border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    h1{margin:0;font-size:26px}
+    p.lead{color:var(--muted);margin:8px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:18px}
+    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 4px 10px rgba(2,6,23,0.04)}
+    ul.services{list-style:none;padding:0;margin:0}
+    ul.services li{padding:8px 0;border-bottom:1px dashed #eee}
+    .contact-card{display:flex;flex-direction:column;gap:8px}
+    label{font-size:13px;color:var(--muted)}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:0;cursor:pointer;text-decoration:none;display:inline-block}
+    .btn-alt{background:#0bba6f}
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:720px){header{flex-direction:column;align-items:flex-start}}
+    .lang-btn{background:transparent;border:1px solid #e6eef8;padding:6px 10px;border-radius:6px;cursor:pointer}
+    .lang-btn.active{border-color:var(--accent);font-weight:600}
+    .hidden{display:none}
+    .final-note{font-size:14px;color:var(--muted);margin-top:12px}
+    .small-note{font-size:12px;color:var(--muted);margin-top:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img id="logo" class="logo-img" src="logo.png" alt="logo">
+        <div class="logo-txt">
+          <div id="site-title" style="font-weight:700">Law Service</div>
+          <div id="site-sub" style="font-size:13px;color:var(--muted)">Legal Advice — Civil | Criminal | Family | Property</div>
+        </div>
+      </div>
+
+      <div class="lang-select">
+        <div style="font-size:13px;color:var(--muted);margin-right:6px">Language:</div>
+        <button class="lang-btn active" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="kn">ಕನ್ನಡ</button>
+        <button class="lang-btn" data-lang="hi">हिन्दी</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1 id="main-title">Your legal help — low-cost and reliable advice</h1>
+        <p class="lead" id="main-lead">Legal advice, petitions, vakalat, cheque bounce, property, family matters — Kannada + English + Hindi support.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3 id="services-title">Main Services</h3>
+          <ul class="services" id="services-list">
+            <li id="s1">Criminal Cases</li>
+            <li id="s2">Civil & Property Disputes</li>
+            <li id="s3">Company & Business Cases</li>
+            <li id="s4">Motor Vehicle Accident / MVC Claims</li>
+            <li id="s5">Family, Divorce & Maintenance Matters</li>
+            <li id="s6">Cheque Bounce Cases</li>
+            <li id="s7">Bank-related Legal Assistance</li>
+            <li id="s8">Real Estate & RERA Cases</li>
+            <li id="s9">Sale Deed, Gift Deed, Will, Lease & Rent Agreements</li>
+            <li id="s10">Drafting & Registration of Legal Documents</li>
+            <li id="s11">Case Status Information</li>
+            <li id="s12">Agents available to handle cases</li>
+          </ul>
+
+          <div class="final-note" id="final-note-en">
+            All types of legal advisory services are provided in a simple and accessible manner. In case of any service failure, you have the right to request a review.
+          </div>
+          <div class="small-note" id="small-note-en">
+            If there are any disputes or complaints regarding the service, please notify us within 30 days; thereafter matters will be taken up only through mediation, conciliation, or Lok Adalat.
+          </div>
+        </div>
+
+        <div class="card contact-card" id="contact">
+          <h3 id="contact-title">Contact</h3>
+          <div id="contact-lead" style="font-size:14px">Please leave your details below or call / email directly:</div>
+
+          <div>
+            <label id="label-name">Name</label>
+            <input placeholder="Your name" id="input-name">
+          </div>
+          <div>
+            <label id="label-phone">Phone</label>
+            <input placeholder="+91 7xxxxxxxxx" id="input-phone">
+          </div>
+          <div>
+            <label id="label-message">Message</label>
+            <textarea rows="4" placeholder="Type your question/details" id="input-message"></textarea>
+          </div>
+
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <a id="mailto" class="btn" href="mailto:siddugk1999@gmail.com?subject=Inquiry%20from%20website">Send Email</a>
+            <a id="callbtn" class="btn btn-alt" href="tel:7624934330">Call</a>
+          </div>
+
+          <div style="margin-top:10px;font-size:13px;color:var(--muted)" id="contact-info">
+            Or Email: <strong>siddugk1999@gmail.com</strong><br>Call: <strong>7624934330</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="about">
+        <h3 id="about-title">About</h3>
+        <p id="about-text" style="margin:0;color:var(--muted)">Law Service — expert advocates offering legal advice in Kannada, English and Hindi. Case preparation, drafting, petitions and court representation.</p>
+      </div>
+
+    </section>
+
+    <footer>
+      © <span id="year"></span> Law Service · Prepared with care · Kannada + English + Hindi support
+    </footer>
+  </div>
+
+  <script>
+    const translations = {
+      en: {
+        siteTitle: "Law Service",
+        siteSub: "Legal Advice — Civil | Criminal | Family | Property",
+        mainTitle: "Your legal help — low-cost and reliable advice",
+        mainLead: "Legal advice, petitions, vakalat, cheque bounce, property, family matters — Kannada + English + Hindi support.",
+        servicesTitle: "Main Services",
+        s1: "Criminal Cases",
+        s2: "Civil & Property Disputes",
+        s3: "Company & Business Cases",
+        s4: "Motor Vehicle Accident / MVC Claims",
+        s5: "Family, Divorce & Maintenance Matters",
+        s6: "Cheque Bounce Cases",
+        s7: "Bank-related Legal Assistance",
+        s8: "Real Estate & RERA Cases",
+        s9: "Sale Deed, Gift Deed, Will, Lease & Rent Agreements",
+        s10: "Drafting & Registration of Legal Documents",
+        s11: "Case Status Information",
+        s12: "Agents available to handle cases",
+        finalNote: "All types of legal advisory services are provided in a simple and accessible manner. In case of any service failure, you have the right to request a review.",
+        smallNote: "If there are any disputes or complaints regarding the service, please notify us within 30 days; thereafter matters will be taken up only through mediation, conciliation, or Lok Adalat.",
+        contactTitle: "Contact",
+        contactLead: "Please leave your details below or call / email directly:",
+        labelName: "Name",
+        labelPhone: "Phone",
+        labelMessage: "Message",
+        mailto: "mailto:siddugk1999@gmail.com?subject=Inquiry%20from%20website",
+        callHref: "tel:7624934330",
+        contactInfo: "Or Email: <strong>siddugk1999@gmail.com</strong><br>Call: <strong>7624934330</strong>",
+        aboutTitle: "About",
+        aboutText: "Law Service — expert advocates offering legal advice in Kannada, English and Hindi. Case preparation, drafting, petitions and court representation."
+      },
+      kn: {
+        siteTitle: "ಕಾನೂನು ಸೇವೆ",
+        siteSub: "ಕಾನೂನು ಸಲಹೆ — ನಾಗರಿಕ | ಕ್ರಿಮಿನಲ್ | ಕುಟುಂಬ | ಆಸ್ತಿ",
+        mainTitle: "ನಿಮ್ಮ ಕಾನೂನು ಸಹಾಯ — ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಮತ್ತು ನಂಬಿಗಸ್ಥ ಸಲಹೆ",
+        mainLead: "ಕಾನೂನು ಸಲಹೆ, ಅರ್ಜಿಗಳು, ವಕಾಲತ್, ಚೆಕ್ ಬೌನ್ಸ್, ಆಸ್ತಿ, ಕುಟುಂಬ ವಿಷಯಗಳು — ಕನ್ನಡ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಹಿಂದಿ ಬೆಂಬಲ.",
+        servicesTitle: "ಪ್ರಮುಖ ಸೇವೆಗಳು",
+        s1: "ಕ್ರಿಮಿನಲ್ ಕೇಸು",
+        s2: "ನಾಗರಿಕ ಮತ್ತು ಆಸ್ತಿ ವಿವಾದಗಳು",
+        s3: "ಕಂಪನಿ ಮತ್ತು ವ್ಯವಹಾರ ಸಂಬಂಧಿತ ಪ್ರಕರಣಗಳು",
+        s4: "ವಾಹನ ಅಪಘಾತ / ಎಂ.ವಿ.ಸಿ ಕೇಸ್",
+        s5: "ಕುಟುಂಬ, ವಿಚ್ಛೇದನ ಮತ್ತು ಪಾಲನಾ ವಿಷಯಗಳು",
+        s6: "ಚೆಕ್ ಬೌನ್ಸ್ ಕೇಸ್",
+        s7: "ಬ್ಯಾಂಕ್ ಸಂಬಂಧಿ ಕಾನೂನು ಸಹಾಯ",
+        s8: "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಮತ್ತು RERA ಕೇಸುಗಳು",
+        s9: "ಮಾರಾಟದ ಡೀಡ್, ಗಿಫ್ಟ್ ಡೀಡ್, ವಿಲ್, ಲೀಸ್ ಮತ್ತು ಬಾಡಿಗೆ ಒಪ್ಪಂದಗಳು",
+        s10: "ಕಾನೂನು ಡ್ರಾಫ್ಟಿಂಗ್ ಮತ್ತು ನೋಂದಣಿಗೆ ದಾಖಲೆ ತಯಾರಿ",
+        s11: "ಪ್ರಕರಣ ಸ್ಥಿತಿ ಮಾಹಿತಿ",
+        s12: "ಪ್ರಕರಣಗಳನ್ನು ನಡೆಸಲು ಏಜೆಂಟ್‌ಗಳು ಲಭ್ಯ",
+        finalNote: "ಇವುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ಇತರೆ ಎಲ್ಲ ತರಹದ ಕಾನೂನು ಸಲಹೆ ಸೇವೆಗಳನ್ನು ಅತ್ಯಂತ ಸರಳವಾಗಿ ನೀಡುವಂತದ್ದು. ಸೇವೆಯಲ್ಲಿ ಯಾವುದೇ ರೀತಿಯಾದ ವೈಫಲ್ಯ ಕಂಡುಬಂದಲ್ಲಿ ಪುನಃ ಪರಿಶೀಲನೆ ತಾವುಗಳು ಮಾಡತಕ್ಕದ್ದು.",
+        smallNote: "ಸೇವೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ರೀತಿಯಾದ ತಾತ್ವಿಕ ತಂಟೆ/ತಕರಾರು/ದೂರು ಇದ್ದಲ್ಲಿ 30 ದಿನಗಳೊಳಗಾಗಿ ಸೂಚನೆ ನೀಡಿ; ನಂತರ ಮಧ್ಯಸ್ಥಿಕೆ, ಸಂಧಾನ ಅಥವಾ ಲೋಕಾದಲಟ್‍ನಲ್ಲಿ ಮಾತ್ರ ಪ್ರಕರಣ ಹೂಡುವಂತದ್ದು.",
+        contactTitle: "ಸಂಪರ್ಕ",
+        contactLead: "ದಯವಿಟ್ಟು ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಕೆಳಗೆ ನಮೂದಿಸಿ ಅಥವಾ ನೇರವಾಗಿ ಕರೆ/ಇಮೇಲ್ ಮಾಡಿ:",
+        labelName: "ಹೆಸರು",
+        labelPhone: "ದೂರವಾಣಿ",
+        labelMessage: "ಸಂದೇಶ",
+        mailto: "mailto:siddugk1999@gmail.com?subject=Inquiry%20from%20website",
+        callHref: "tel:7624934330",
+        contactInfo: "ಅಥವಾ ಇಮೇಲ್: <strong>siddugk1999@gmail.com</strong><br>ಕರೆ: <strong>7624934330</strong>",
+        aboutTitle: "ಬಗ್ಗೆ",
+        aboutText: "ಕಾನೂನು ಸೇವೆ — ತಜ್ಞ ವಕೀಲರಿಂದ ಕನ್ನಡ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಹಿಂದಿಯಲ್ಲಿ ಕಾನೂನು ಸಲಹೆ. ಪ್ರಕರಣ ತಯಾರಿ, ಡ್ರಾಫ್ಟಿಂಗ್, ಅರ್ಜಿಗಳು ಮತ್ತು ಕೋರ್ಟ್ ಪ್ರತಿನ ವಿಧಿ."
+      },
+      hi: {
+        siteTitle: "कानून सेवाएं",
+        siteSub: "कानूनी सलाह — सिविल | फौजदारी | परिवार | संपत्ति",
+        mainTitle: "आपकी कानूनी मदद — कम कीमत और भरोसेमंद सलाह",
+        mainLead: "कानूनी सलाह, आवेदन, वकालत, चेक बाउंस, संपत्ति, पारिवारिक मामले — हिंदी, कन्नड़ और अंग्रेज़ी समर्थन।",
+        servicesTitle: "प्रमुख सेवाएँ",
+        s1: "आपराधिक मामले",
+        s2: "दीवानी व संपत्ति विवाद",
+        s3: "कंपनी व व्यापार से जुड़े मामले",
+        s4: "वाहन दुर्घटना / एमवीसी दावे",
+        s5: "परिवार, तलाक व भरण-पोषण मामले",
+        s6: "चेक बाउंस केसेस",
+        s7: "बैंक संबंधित कानूनी सहायता",
+        s8: "रियल एस्टेट और RERA मामले",
+        s9: "सेल डीड, गिफ्ट डीड, वसीयत, लीज व किराए के समझौते",
+        s10: "कानूनी ड्राफ्टिंग व पंजीकरण की तैयारी",
+        s11: "मामले की स्थिति की जानकारी",
+        s12: "केस संभालने के लिए एजेंट उपलब्ध हैं",
+        finalNote: "इनके साथ सभी प्रकार की कानूनी सलाह सेवाएँ सरल और पारदर्शी रूप से प्रदान की जाती हैं। सेवा में किसी भी प्रकार की कमी पाए जाने पर पुनः समीक्षा का अधिकार आपको है।",
+        smallNote: "सेवा के बारे में किसी भी प्रकार के विवाद/शिकायत होने पर कृपया 30 दिनों के भीतर सूचित करें; उसके बाद मामला केवल मध्यस्थता, सुलह या लोक अदालत के माध्यम से ही उठाया जाएगा।",
+        contactTitle: "संपर्क",
+        contactLead: "कृपया नीचे अपने विवरण दर्ज करें या सीधे कॉल / ईमेल करें:",
+        labelName: "नाम",
+        labelPhone: "फ़ोन",
+        labelMessage: "संदेश",
+        mailto: "mailto:siddugk1999@gmail.com?subject=Inquiry%20from%20website",
+        callHref: "tel:7624934330",
+        contactInfo: "या ईमेल: <strong>siddugk1999@gmail.com</strong><br>कॉल: <strong>7624934330</strong>",
+        aboutTitle: "बारे में",
+        aboutText: "कानून सेवाएं — विशेषज्ञ वकीलों द्वारा कन्नड़, अंग्रेज़ी और हिंदी में कानूनी सलाह। मामले की तैयारी, ड्राफ्टिंग, आवेदन और अदालत प्रतिनिधित्व।"
+      }
+    };
+
+    function setLanguage(lang) {
+      const t = translations[lang] || translations.en;
+      document.getElementById('site-title').textContent = t.siteTitle;
+      document.getElementById('site-sub').textContent = t.siteSub;
+      document.getElementById('main-title').textContent = t.mainTitle;
+      document.getElementById('main-lead').textContent = t.mainLead;
+      document.getElementById('services-title').textContent = t.servicesTitle;
+      document.getElementById('s1').textContent = t.s1;
+      document.getElementById('s2').textContent = t.s2;
+      document.getElementById('s3').textContent = t.s3;
+      document.getElementById('s4').textContent = t.s4;
+      document.getElementById('s5').textContent = t.s5;
+      document.getElementById('s6').textContent = t.s6;
+      document.getElementById('s7').textContent = t.s7;
+      document.getElementById('s8').textContent = t.s8;
+      document.getElementById('s9').textContent = t.s9;
+      document.getElementById('s10').textContent = t.s10;
+      document.getElementById('s11').textContent = t.s11;
+      document.getElementById('s12').textContent = t.s12;
+      document.querySelector('.final-note').textContent = t.finalNote;
+      document.querySelector('.small-note').textContent = t.smallNote;
+      document.getElementById('contact-title').textContent = t.contactTitle;
+      document.getElementById('contact-lead').textContent = t.contactLead;
+      document.getElementById('label-name').textContent = t.labelName;
+      document.getElementById('label-phone').textContent = t.labelPhone;
+      document.getElementById('label-message').textContent = t.labelMessage;
+      document.getElementById('mailto').href = t.mailto;
+      document.getElementById('callbtn').href = t.callHref;
+      document.getElementById('contact-info').innerHTML = t.contactInfo;
+      document.getElementById('about-title').textContent = t.aboutTitle;
+      document.getElementById('about-text').textContent = t.aboutText;
+    }
+
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        setLanguage(btn.getAttribute('data-lang'));
+      });
+    });
+
+    // default
+    setLanguage('en');
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
